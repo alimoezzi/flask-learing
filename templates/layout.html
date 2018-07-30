@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--    using flask url function to generate the address-->
+    <link href="{{url_for('static',filename = 'css/main.css')}}" rel="stylesheet">
+    <title></title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1> Learnig flask</h1>
+        </div>
+    </header>
+<!-- the place holder for content to be replaced -->
+
+    {% block content %}
+    {% endblock %}
+
+</body>
+</html>
