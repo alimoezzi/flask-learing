@@ -6,6 +6,10 @@ html, body, h1 {
   margin: 0;
   padding: 0;
 }
+p {
+  text-align: justify;
+  text-indent: 10px;
+}
 
 body {
   background-color: #f4f4f4;
@@ -25,7 +29,7 @@ a {
 }
 
 .container {
-  width: 1000px;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -85,6 +89,13 @@ a {
   text-transform: uppercase;
 }
 
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  /* position: relative; */
+}
+
 
 
 /* 
@@ -93,7 +104,7 @@ a {
 
 header {
   background-color: #fff;
-  padding: 25px 0;
+  padding: 25px 25px;
 }
 
 .title {
@@ -147,7 +158,25 @@ header {
 .hero-section .section-content .btn-primary {
   margin-right: 10px;
 }
+/*
+ * sign out
+ */
+.btn-logout {
+    text-decoration: none;
+    /* display: inline; */
+    position: absolute;
+    color: rgb(167, 163, 163);
+    top: 0px;
+    right: 0px;
+    padding-top: 35px;
+    padding-right: 30px;
+    margin-left: 10px;
+    margin: auto 0;
+}
 
+.btn-logout:hover{
+  color: #3a3a3a;
+}
 
 /*
  * Sign up
@@ -182,7 +211,7 @@ header {
   color: #3a3a3a;
   font-size: 18px;
   padding: 5px 0;
-  width: 100%;
+  width: 60%;
 }
 
 .form-group input:focus {
@@ -215,7 +244,6 @@ header {
 .about-section p {
   font-size: 16px;
 }
-
 
 /* 
  * Home
