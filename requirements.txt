@@ -13,7 +13,7 @@ cycler==0.10.0
 decorator==4.3.0
 deprecation==2.0.2
 distro==1.1.0
-Django==2.1
+Django==2.2.10
 docutils==0.14
 fasteners==0.14.1
 flake8==3.5.0
