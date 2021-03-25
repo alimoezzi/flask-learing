@@ -60,7 +60,7 @@ pytest==3.6.3
 python-dateutil==2.6.1
 python2==1.2
 pytz==2017.3
-PyYAML==3.12
+PyYAML==5.4
 ratelim==0.1.6
 requests==2.18.4
 SchemDraw==0.3.1
